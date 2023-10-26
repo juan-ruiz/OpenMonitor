@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE769E4F2AE9C64200411496 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE769E4E2AE9C64200411496 /* SampleView.swift */; };
+		EE9692712AE21A9D003984E8 /* OpenMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9692702AE21A9D003984E8 /* OpenMonitorApp.swift */; };
+		EE9692732AE21A9D003984E8 /* SelectInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9692722AE21A9D003984E8 /* SelectInputView.swift */; };
+		EE9692752AE21A9D003984E8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9692742AE21A9D003984E8 /* Item.swift */; };
+		EE9692772AE21A9F003984E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9692762AE21A9F003984E8 /* Assets.xcassets */; };
+		EE96927A2AE21A9F003984E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9692792AE21A9F003984E8 /* Preview Assets.xcassets */; };
+		EE9692842AE21A9F003984E8 /* OpenMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9692832AE21A9F003984E8 /* OpenMonitorTests.swift */; };
+		EE96928E2AE21A9F003984E8 /* OpenMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96928D2AE21A9F003984E8 /* OpenMonitorUITests.swift */; };
+		EE9692902AE21A9F003984E8 /* OpenMonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96928F2AE21A9F003984E8 /* OpenMonitorUITestsLaunchTests.swift */; };
+		EE96929D2AE22459003984E8 /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96929C2AE22459003984E8 /* MonitorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9692802AE21A9F003984E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9692652AE21A9D003984E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE96926C2AE21A9D003984E8;
+			remoteInfo = OpenMonitor;
+		};
+		EE96928A2AE21A9F003984E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9692652AE21A9D003984E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE96926C2AE21A9D003984E8;
+			remoteInfo = OpenMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE769E4E2AE9C64200411496 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		EE96926D2AE21A9D003984E8 /* OpenMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9692702AE21A9D003984E8 /* OpenMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMonitorApp.swift; sourceTree = "<group>"; };
+		EE9692722AE21A9D003984E8 /* SelectInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInputView.swift; sourceTree = "<group>"; };
+		EE9692742AE21A9D003984E8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EE9692762AE21A9F003984E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9692792AE21A9F003984E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE96927F2AE21A9F003984E8 /* OpenMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9692832AE21A9F003984E8 /* OpenMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMonitorTests.swift; sourceTree = "<group>"; };
+		EE9692892AE21A9F003984E8 /* OpenMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE96928D2AE21A9F003984E8 /* OpenMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMonitorUITests.swift; sourceTree = "<group>"; };
+		EE96928F2AE21A9F003984E8 /* OpenMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE96929C2AE22459003984E8 /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
+		EE96929E2AE22978003984E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE96926A2AE21A9D003984E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE96927C2AE21A9F003984E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9692862AE21A9F003984E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9692642AE21A9D003984E8 = {
+			isa = PBXGroup;
+			children = (
+				EE96926F2AE21A9D003984E8 /* OpenMonitor */,
+				EE9692822AE21A9F003984E8 /* OpenMonitorTests */,
+				EE96928C2AE21A9F003984E8 /* OpenMonitorUITests */,
+				EE96926E2AE21A9D003984E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE96926E2AE21A9D003984E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE96926D2AE21A9D003984E8 /* OpenMonitor.app */,
+				EE96927F2AE21A9F003984E8 /* OpenMonitorTests.xctest */,
+				EE9692892AE21A9F003984E8 /* OpenMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE96926F2AE21A9D003984E8 /* OpenMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				EE96929E2AE22978003984E8 /* Info.plist */,
+				EE9692702AE21A9D003984E8 /* OpenMonitorApp.swift */,
+				EE9692722AE21A9D003984E8 /* SelectInputView.swift */,
+				EE769E4E2AE9C64200411496 /* SampleView.swift */,
+				EE96929C2AE22459003984E8 /* MonitorView.swift */,
+				EE9692742AE21A9D003984E8 /* Item.swift */,
+				EE9692762AE21A9F003984E8 /* Assets.xcassets */,
+				EE9692782AE21A9F003984E8 /* Preview Content */,
+			);
+			path = OpenMonitor;
+			sourceTree = "<group>";
+		};
+		EE9692782AE21A9F003984E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE9692792AE21A9F003984E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE9692822AE21A9F003984E8 /* OpenMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9692832AE21A9F003984E8 /* OpenMonitorTests.swift */,
+			);
+			path = OpenMonitorTests;
+			sourceTree = "<group>";
+		};
+		EE96928C2AE21A9F003984E8 /* OpenMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE96928D2AE21A9F003984E8 /* OpenMonitorUITests.swift */,
+				EE96928F2AE21A9F003984E8 /* OpenMonitorUITestsLaunchTests.swift */,
+			);
+			path = OpenMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE96926C2AE21A9D003984E8 /* OpenMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9692932AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitor" */;
+			buildPhases = (
+				EE9692692AE21A9D003984E8 /* Sources */,
+				EE96926A2AE21A9D003984E8 /* Frameworks */,
+				EE96926B2AE21A9D003984E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenMonitor;
+			productName = OpenMonitor;
+			productReference = EE96926D2AE21A9D003984E8 /* OpenMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE96927E2AE21A9F003984E8 /* OpenMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9692962AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitorTests" */;
+			buildPhases = (
+				EE96927B2AE21A9F003984E8 /* Sources */,
+				EE96927C2AE21A9F003984E8 /* Frameworks */,
+				EE96927D2AE21A9F003984E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9692812AE21A9F003984E8 /* PBXTargetDependency */,
+			);
+			name = OpenMonitorTests;
+			productName = OpenMonitorTests;
+			productReference = EE96927F2AE21A9F003984E8 /* OpenMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9692882AE21A9F003984E8 /* OpenMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9692992AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitorUITests" */;
+			buildPhases = (
+				EE9692852AE21A9F003984E8 /* Sources */,
+				EE9692862AE21A9F003984E8 /* Frameworks */,
+				EE9692872AE21A9F003984E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE96928B2AE21A9F003984E8 /* PBXTargetDependency */,
+			);
+			name = OpenMonitorUITests;
+			productName = OpenMonitorUITests;
+			productReference = EE9692892AE21A9F003984E8 /* OpenMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9692652AE21A9D003984E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE96926C2AE21A9D003984E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE96927E2AE21A9F003984E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE96926C2AE21A9D003984E8;
+					};
+					EE9692882AE21A9F003984E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE96926C2AE21A9D003984E8;
+					};
+				};
+			};
+			buildConfigurationList = EE9692682AE21A9D003984E8 /* Build configuration list for PBXProject "OpenMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9692642AE21A9D003984E8;
+			productRefGroup = EE96926E2AE21A9D003984E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE96926C2AE21A9D003984E8 /* OpenMonitor */,
+				EE96927E2AE21A9F003984E8 /* OpenMonitorTests */,
+				EE9692882AE21A9F003984E8 /* OpenMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE96926B2AE21A9D003984E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE96927A2AE21A9F003984E8 /* Preview Assets.xcassets in Resources */,
+				EE9692772AE21A9F003984E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE96927D2AE21A9F003984E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9692872AE21A9F003984E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9692692AE21A9D003984E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE769E4F2AE9C64200411496 /* SampleView.swift in Sources */,
+				EE9692732AE21A9D003984E8 /* SelectInputView.swift in Sources */,
+				EE9692752AE21A9D003984E8 /* Item.swift in Sources */,
+				EE9692712AE21A9D003984E8 /* OpenMonitorApp.swift in Sources */,
+				EE96929D2AE22459003984E8 /* MonitorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE96927B2AE21A9F003984E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9692842AE21A9F003984E8 /* OpenMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9692852AE21A9F003984E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE96928E2AE21A9F003984E8 /* OpenMonitorUITests.swift in Sources */,
+				EE9692902AE21A9F003984E8 /* OpenMonitorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9692812AE21A9F003984E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE96926C2AE21A9D003984E8 /* OpenMonitor */;
+			targetProxy = EE9692802AE21A9F003984E8 /* PBXContainerItemProxy */;
+		};
+		EE96928B2AE21A9F003984E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE96926C2AE21A9D003984E8 /* OpenMonitor */;
+			targetProxy = EE96928A2AE21A9F003984E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE9692912AE21A9F003984E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9692922AE21A9F003984E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9692942AE21A9F003984E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UT6KY39P9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera will be used as input for video monitoring";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone will be used as input for audio monitoring";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to the photo library is required to persist snapshots";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9692952AE21A9F003984E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UT6KY39P9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera will be used as input for video monitoring";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone will be used as input for audio monitoring";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to the photo library is required to persist snapshots";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE9692972AE21A9F003984E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenMonitor";
+			};
+			name = Debug;
+		};
+		EE9692982AE21A9F003984E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenMonitor";
+			};
+			name = Release;
+		};
+		EE96929A2AE21A9F003984E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenMonitor;
+			};
+			name = Debug;
+		};
+		EE96929B2AE21A9F003984E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-no3.OpenMonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9692682AE21A9D003984E8 /* Build configuration list for PBXProject "OpenMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9692912AE21A9F003984E8 /* Debug */,
+				EE9692922AE21A9F003984E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9692932AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9692942AE21A9F003984E8 /* Debug */,
+				EE9692952AE21A9F003984E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9692962AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9692972AE21A9F003984E8 /* Debug */,
+				EE9692982AE21A9F003984E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9692992AE21A9F003984E8 /* Build configuration list for PBXNativeTarget "OpenMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE96929A2AE21A9F003984E8 /* Debug */,
+				EE96929B2AE21A9F003984E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9692652AE21A9D003984E8 /* Project object */;
+}
