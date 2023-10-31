@@ -70,16 +70,15 @@ struct SelectInputView: View {
                     )
                     Button(action: {
                         print("selectedInputID: \(String(describing: selectedInputID))")  // Debug print
-                        if selectedInputID != nil {
-                            navigateToMonitorView = true
-                        }
+                        navigateToMonitorView = true
+                        
                     }) {
                         Text("Start")
                     }
                 }
                 
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
         
     }
 }

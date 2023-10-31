@@ -47,12 +47,16 @@ struct MonitorView: View {
     var body: some View {
         VStack {
             if let session = captureSession {
-                CameraPreview(captureSession: session)
+                CameraPreview(captureSession: session).frame(maxWidth: .infinity, maxHeight: .infinity).aspectRatio(contentMode: .fit)
+                
             }
         }
         .onAppear {
             captureSession = self.captureSession(for: captureDevice)
-            captureSession?.startRunning()
+            let dispatchQueue = DispatchQueue(label: "captureSession", qos: .background)
+            dispatchQueue.async{
+                captureSession?.startRunning()
+            }
         }
         .onDisappear {
             captureSession?.stopRunning()
